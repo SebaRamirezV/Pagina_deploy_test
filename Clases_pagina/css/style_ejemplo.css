@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+      box-sizing: inherit;
+  }
+
+body {
+    font-size: 5rem;
+    margin: 2rem;
+    line-height: 0.7;
+    background-color: cyan;
+}
+
+h1 {
+    font-size: 20rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 10rem;
+    background-color: brown;
+    font-weight: 800;
+    color: white;
+    width: 50%;
+}
+
+p:hover {
+    background-color: teal;
+}
+
+.division {
+    background-color: aquamarine;
+    display: flex
+}
+
+.division:hover {
+    background-color: white;
+    
+}
+
+ul {
+    background-color: darkslategray;
+    width: 50%;
+    padding-top: 10rem;
+}
+
+li {
+    list-style-type: none;
+}
